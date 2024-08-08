@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Kapda Lelo</title>
     <style>
         *{
@@ -22,7 +23,7 @@
             flex-wrap: nowrap;
         }
         .neon{
-            height: 4.5rem;
+            height: 4.3rem;
             width: 15rem;
             border: solid 1px black;
             background-color: rgb(214,255,56);
@@ -34,18 +35,63 @@
         }
         .plain{
             border:solid 1px black;
-            width: 280px;
+            width: 18rem;
             line-height: 75px;
-
+            text-align: center;
+        }
+        .ye{
+            text-decoration: none;
+            color: black;
+        }
+        .ye:hover{
+            background-color: black;
+            color: rgb(214,255,56);
 
         }
+        
         .main{
+            height: 5rem;
             display: flex;
             flex-direction: row;
             float: right;
             justify-content: space-between;
             
         }
+        .til{
+            font-size: 50px;
+            padding: 15px;
+            
+
+        }
+        .sml{
+            height: 5vh;
+            width: 20vw;
+            font-size: 20px;
+            padding: 2px;
+            margin-bottom: 10vh;
+            background-color:rgb(214,255,56) ;
+        }
+        .pic{
+            height: 150vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            /* flex-direction: row;
+            flex-wrap: nowrap; */
+          
+        }
+        .pic1,.pic3{
+            height: 120vh;
+            width: 150vh;
+        }
+        .pic2{
+            height: 120vh;
+            width: 240vw;
+            padding-left: 3px;
+            padding-right: 3px;
+
+        }
+
 
     </style>
 </head>
@@ -58,13 +104,23 @@
             <h2>T SHOP</h2>
         </div>
         <div class="main">
-            <div class="plain"></div>
-            <div class="plain"></div>
-            <div class="plain"></div>
-            <div class="plain"></div>
+            <a href="#" class="ye"><div class="plain">NEW</div></a>
+            <a href="#" class="ye"><div class="plain">MEN</div></a>
+            <a href="#" class="ye"><div class="plain">WOMEN</div></a>
+            <a href="#" class="ye"><div class="plain">LOGIN</div></a>
+            
+            
         </div>
     </div>
-    
+    <center><div >
+        <b><p class="til">T SHOP</p></b>
+       <div class="sml">There’s One for Everyone</div>
+    </div></center>
+    <div class="pic">
+        <div class="pic1"><img src="https://static.wixstatic.com/media/c837a6_412c6d4e5a8f49f1bd70c5a9f60bd99d~mv2.jpg/v1/fill/w_606,h_898,q_90/c837a6_412c6d4e5a8f49f1bd70c5a9f60bd99d~mv2.webp" alt="women" height="450vh" ></div>
+        <div class="pic2"><img src="https://static.wixstatic.com/media/c837a6_3e8310c6d6474d42a3e2925a1f4ed3a3~mv2.jpg/v1/fill/w_615,h_449,fp_0.5_0.43,q_90/c837a6_3e8310c6d6474d42a3e2925a1f4ed3a3~mv2.jpg" alt="shirt"></div>
+        <div class="pic3"><img src="https://static.wixstatic.com/media/c837a6_3a03706bd90e4f289e7aed0d2f11c992~mv2.jpg/v1/fill/w_302,h_449,q_90/c837a6_3a03706bd90e4f289e7aed0d2f11c992~mv2.jpg" alt="men"></div>
+    </div>
     
 </body>
 </html>
